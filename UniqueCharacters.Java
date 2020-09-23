@@ -1,22 +1,19 @@
 
-// Implement an algorithm to determine if a string has all unique characters. The program should only check if alphabetic characters are unique. Spaces, quotations, numbers, etc should be ignored. The case of each character matters. 'A' is not the same as 'a'.
-//
-// Input Format
-//
-//The input is one line containing any number of characters.
-//
-//Output Format
-//
-//The output should be either "Yes" or "No" with no spaces.
+/*
+ Implement an algorithm to determine if a string has all unique characters. The program should only check if alphabetic characters are unique. Spaces, quotations, numbers, etc should be ignored. The case of each character matters. 'A' is not the same as 'a'.
 
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
+ Input Format
+
+The input is one line containing any number of characters.
+
+Output Format
+
+The output should be either "Yes" or "No" with no spaces.
+*/
+
 import java.util.Scanner;
 
-public class UniqueCharacters {
+class UniqueCharacters {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -45,9 +42,7 @@ public class UniqueCharacters {
             }
         }
         
-      
-	  
-		System.out.println("Yes");
+     System.out.println("Yes");
       
     }
 }
